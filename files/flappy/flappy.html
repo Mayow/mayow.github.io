@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title> Flappy Bird</title>
+    
+	<!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="cache-control" content="max-age=0" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta name="description" content=" Flappy Bird<">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    
+	<!-- Global CSS -->
+    <link rel="stylesheet" href="../assets/plugins/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/flappy_bird.css">
+	<meta name="viewport" content="width=device-width, initial-scale=.28, maximum-scale=6, user-scalable=no">
+
+    <style>
+		*{
+			zoom: 92%;
+		}	
+		
+    </style>
+    <link rel="shortcut icon" href="../assets/images/icon.ico">
+</head>
+
+<body>
+
+
+    <div class="  animated zoomIn">
+        
+	<div id="bothRules">	
+		<aside id="rules" style=" color: black; background-color: redf;  padding: 30px " >
+				<h4 style="font-size: 55px; font-weight: bold; ">How to play</h4>
+				<p style="font-size: 24px; font-weight: bold;" > Press or hold the arrow keys to help Faby fly.</p>
+				<br>				
+		</aside>
+		
+		<aside id="rules2" style=" color: black; background-color: redf;  padding: 30px " >		
+				<h4 style="font-size: 55px; font-weight: bold; ">Basic Rules</h4>
+				<p style="font-size: 24px; font-weight: bold;" >
+					In this game the objective is to direct a flying bird, 
+					named "Faby" in between the sets of  pipes. Faby 
+					falls due to gravity so use the arrow keys to help Faby fly upward 
+					for a brief time. 1 point is added to the score 
+					every time Faby flies through a set pipes.</p>
+		</aside>	
+	</div>
+        <div id="file">
+			<header id="AG">
+				<center id= "words" >
+				<h1 id= "word" >Flappy Bird </h1>
+				</center>
+			</header>
+			 
+		<canvas id="canvas" width="575" height="512" style="margin-left: 140px; margin-top: 100px;">
+		
+		</canvas>
+		<button  id="end" onclick="location.reload()" > New Game </button>
+
+        </div>
+    </div>
+
+	<!-- Javascript -->      
+   <script src="js/flappyBird.js"></script>
+
+</body>
+</html>

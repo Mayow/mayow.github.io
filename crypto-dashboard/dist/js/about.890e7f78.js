@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkcrypto_dashboard"]=self["webpackChunkcrypto_dashboard"]||[]).push([[443],{9086:function(r,a,t){t.r(a),t.d(a,{default:function(){return h}});var c=t(3396);const n=r=>((0,c.dD)("data-v-3c85bb71"),r=r(),(0,c.Cn)(),r),d={class:"header-title"},e=n((()=>(0,c._)("div",null,"Cryptocurrency Dashboard",-1))),s=[e];function o(r,a){return(0,c.wg)(),(0,c.iD)("div",d,s)}var u=t(89);const b={},i=(0,u.Z)(b,[["render",o],["__scopeId","data-v-3c85bb71"]]);var h=i}}]);
-//# sourceMappingURL=about.890e7f78.js.map

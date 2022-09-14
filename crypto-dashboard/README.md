@@ -1,5 +1,8 @@
 # crypto-dashboard
 
+## Link to live demo
+https://mayow.github.io/crypto-dashboard/index.html
+
 ## Project setup
 ```
 npm install
